@@ -28,9 +28,17 @@
 // edad >= 18 ? alert ( `Usted es mayor de edad`) : alert ( `Usted es menor de edad`);
 
 //EJERCICIO 6
-let horaActual = prompt(`Hola, qué hora es?`)
+// let horaActual = prompt(`Hola, qué hora es?`)
 
-if (horaActual >=5 && horaActual <=12) {alert ("Buen día")}
-else if (horaActual >=13 && horaActual <=20) {alert ("Buenas tardes")}
-else {alert ("Buenas noches")};
+// if (horaActual >=5 && horaActual <=12) {alert ("Buen día")}
+// else if (horaActual >=13 && horaActual <=20) {alert ("Buenas tardes")}
+// else {alert ("Buenas noches")};
 
+
+//Ejercicio 7 //
+
+let calificación = prompt("Por favor ingrese la calificación obtenida");
+if (calificación > 10) {alert ("El dato es incorrecto. Por favor ingrese un número entre 0 y 10")}
+else if (calificación >= 9) {alert (`La nota es excelente`)}
+else if (calificación < 9 && calificación >= 6) {alert ("La nota es buena")}
+else {alert ("El exámen está desaprobado")};
